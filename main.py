@@ -6,7 +6,7 @@ class Polaczenie:
         s.data_dict = s.read_data()
 
 
-    def read_data(s)
+    def read_data(s):
         sum = dict()
         with open (s.filename, 'r') as f:
             r = csv.reader(f,delimiter = ',')
